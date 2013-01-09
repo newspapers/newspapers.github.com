@@ -1,6 +1,5 @@
 
 
-
 html, body {
 margin:0;
 padding:0;
@@ -56,7 +55,7 @@ text-align: center;
 display:block;
 min-height:170px;
 border-bottom:7px solid #000;
-background:url('../img/eyes.png') no-repeat center bottom;
+background:url('https://bangla-news-paper.appspot.com/img/eyes.png') no-repeat center bottom;
 }
 
 header h1 {
@@ -150,7 +149,7 @@ color: #e11032;
 
 
 section {
-background:#d0cdc9 url('../img/bg-section.png');
+background:#d0cdc9 url('https://bangla-news-paper.appspot.com/img/bg-section.png');
 display:block;
 width:100%;
 text-align:center;
@@ -387,7 +386,7 @@ footer {
 display:block;
 height:128px;
 margin-top:-5px;
-background:url('../img/bg-footer.png') repeat-x top right;
+background:url('https://bangla-news-paper.appspot.com/img/bg-footer.png') repeat-x top right;
 }
 
 footer p {
