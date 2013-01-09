@@ -1,7 +1,6 @@
 
 
 
-
 html, body {
 margin:0;
 padding:0;
@@ -97,7 +96,7 @@ height:40px;
 width:100%;
 border-top:3px solid #000;
 margin-top:3px;
-background:#e4e2e0 url('../img/bg-nav.png');
+background:#e4e2e0 url('https://bangla-news-paper.appspot.com/img/bg-nav.png');
 text-align:center;
 }
 
