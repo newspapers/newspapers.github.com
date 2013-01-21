@@ -72,7 +72,7 @@ font-family: 'Fontin',"Palatino Linotype","Book Antiqua",Palatino,FreeSerif, ser
 }
 
 nav ul {
-width:320px;
+width:100%;
 }
 
 .mac.chrome nav li {
@@ -333,7 +333,7 @@ padding:0;
 }
 
 iframe {
-max-width:512px;
+max-width:800px;
 width:100%;
 margin-left:0;
 }
