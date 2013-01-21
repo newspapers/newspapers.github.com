@@ -430,6 +430,12 @@ margin-left:4%;
 }
 
 
+.newstype
+{
+background-color:#d0e4fe; url('https://bangla-news-paper.appspot.com/img/bg-nav.png');
+text-align:center;
+}
+
 /* float clearing for everyone else */
 .clearfix:after{
   clear: both;
