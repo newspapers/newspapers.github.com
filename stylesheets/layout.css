@@ -4,7 +4,6 @@
  left: 0px;
  width: 180px;
  color: #333333;
- background:url('images/left-bg.jpg') repeat;
  margin: 0px;
  padding-left: 10px;
  bottom:0px;
@@ -38,5 +37,5 @@ div.news a:hover{color:Red;text-decoration:underline}
 .news-right { 
 	margin: 0;
 	float: left;
-	width: 460px;
+	width: 100%;
 }
