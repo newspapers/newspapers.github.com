@@ -1,0 +1,446 @@
+html, body {
+margin:0;
+padding:0;
+font-family: 'Fontin',"Palatino Linotype","Book Antiqua",Palatino,FreeSerif, serif;
+}
+
+body {
+padding: 0 16px;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+vertical-align:baseline;
+margin:0;
+padding:0;
+font-weight:normal;
+}
+
+h1, h2, h3, h4, h5, h6 {
+font-family:'ChunkFive', "Georgia", serif;
+}
+
+
+a {
+text-decoration:none;
+outline:none;
+}
+
+img {
+border:none;
+}
+
+.award {
+position:absolute;
+top:0;
+right:0;
+visibility:hidden;
+}
+
+.about_site {
+display:none;
+}
+
+
+.container {
+margin:0 auto;
+max-width:940px;
+overflow:hidden;
+width:100%;
+}
+
+header {
+text-align: center;
+display:block;
+min-height:170px;
+border-bottom:7px solid #000;
+background:url('https://bangla-news-paper.appspot.com/img/eyes.png') no-repeat center bottom;
+}
+
+header h1 {
+text-transform:uppercase;
+font-size:36px;
+line-height:36px;
+padding:52px 0 0 0;
+margin:0;
+}
+
+.chrome h1 {
+padding-top:36px;
+margin-bottom:12px;
+}
+
+
+header h3 {
+font-weight:normal;
+font-size:24px;
+line-height:30px;
+padding:0 0 48px 0;
+margin:0;
+font-family: 'Fontin',"Palatino Linotype","Book Antiqua",Palatino,FreeSerif, serif;
+}
+
+.win header h3 {
+padding-top:8px;
+}
+
+.chrome header h3 {
+padding-top:0;
+}
+
+nav {
+display:block;
+height:40px;
+width:100%;
+border-top:3px solid #000;
+margin-top:3px;
+background:#e4e2e0 url('https://bangla-news-paper.appspot.com/img/bg-nav.png');
+text-align:center;
+}
+
+nav ul, nav li {
+margin:0;
+padding:0;
+list-style:none;
+}
+
+nav ul {
+display:block;
+margin:0 auto;
+width:320px;
+padding-left:10px;
+}
+
+nav li {
+display:block;
+height:20px;
+float:left;
+padding:10px 16px 0 16px;
+}
+
+.win nav li {
+padding-top:7px;
+}
+
+.chrome nav li {
+padding-top:6px;
+}
+
+.opera nav li {
+padding-top:10px;
+}
+
+nav a {
+font-size: 18px;
+line-height:20px;
+text-transform:uppercase;
+font-family:'ChunkFive', "Georgia", serif;
+color:#000;
+}
+
+nav a:hover {
+color: #e11032;
+}
+
+nav a:active {
+color: #e11032;
+}
+
+
+section {
+background:#d0cdc9 url('https://bangla-news-paper.appspot.com/img/bg-section.png');
+display:block;
+width:100%;
+text-align:center;
+}
+
+.about a {
+color:#fdfaf7;
+font-size:30px;
+line-height:30px;
+background-color:#545251;
+padding:16px 32px;
+}
+
+div.link {
+padding:19px 0;
+}
+
+.about a:hover, .rightcol a:hover {
+background-color:#e11032;
+}
+
+.dark-bg {
+background-color:#545251;
+background-image:none;
+color:#fbf6f1;
+}
+
+h2 {
+text-transform:uppercase;
+font-size:48px;
+line-height:48px;
+}
+
+.about .about-text, .contact .contact-text {
+width:auto;
+padding:0 16px;
+margin:0 auto;
+}
+
+.about p, .contact p {
+font-size:24px;
+line-height:30px;
+margin-bottom:8px;
+}
+
+.about_bg {
+padding-bottom: 64px;
+background:none;
+}
+
+.about a {
+background-color:#000;
+}
+
+.work h2 {
+padding-top:48px;
+padding-bottom:0;
+}
+
+.chrome .work h2, .win.gecko .work h2 {
+padding-bottom:8px;
+}
+
+.work h4 {
+font-family: 'Fontin',"Palatino Linotype","Book Antiqua",Palatino,FreeSerif, serif;
+font-size:24px;
+line-height:24px;
+padding-bottom:48px;
+}
+
+.ie .work h4 {
+padding-top:8px;
+}
+
+.work-example {
+width:100%;
+padding:0 0 80px 0;
+margin:0 auto;
+}
+
+.work-example p {
+padding:0 32px;
+font-size:30px;
+line-height:36px;
+margin-bottom:16px;
+}
+
+.work-example img {
+width:100%;
+height:auto;
+margin-left:4%;
+border:0px solid #444242;
+}
+
+.work-example h3 {
+font-size:36px;
+line-height:36px;
+padding:32px 32px 16px 32px;
+margin-bottom:12px;
+}
+
+.chrome .work-example h3 {
+margin-bottom:20px;
+}
+
+
+.work-example .leftcol {
+width:100%;
+float:left;
+margin:0;
+}
+
+.work-example .rightcol {
+width:100%;
+float:right;
+text-align:right;
+margin:0;
+padding-left:20px;}
+
+.work-example .rightcol a {
+color:#ffffff;
+background-color:#383736;
+}
+
+.work-example .rightcol a:hover {
+background-color:#e11032;
+}
+
+.work-example .sub-nav {
+display:block;
+width:auto;
+margin:32px 32px 0 32px;
+padding:0;
+}
+
+.work-example .sub-nav p {
+display:block;
+float:left;
+width:auto;
+background:#000;
+padding:0;
+margin:0;
+}
+
+.work-example .sub-nav a {
+font-size: 30px;
+line-height: 30px;
+color:#b2b2b2;
+background:#000 no-repeat 8px center;
+display:block;
+padding:24px;
+}
+
+.work-example .sub-nav a:hover {
+color:#000;
+background-position:-130px center;
+background-color:#e11032;
+}
+
+.work-example .sub-nav a.gotocontact {
+border-left:1px solid #545251;
+}
+
+
+.work-example .hidden {
+display:none;
+}
+
+.contact-wrapper {
+padding-bottom:64px;
+}
+
+.contact-text p {
+padding-bottom:48px;
+}
+
+nav.footer_nav {
+border:0 none;
+margin:0;
+}
+
+.contact a {
+font-family:"ChunkFive", Georgia, serif;
+color:#fbf6f1;
+font-size:36px;
+line-height:36px;
+display:block;
+width:256px;
+padding:16px 0;
+background-color:#000000;
+margin:0 auto;
+}
+
+.contact a.email {
+margin-bottom:16px;
+}
+
+.win .contact a, .chrome .contact a {
+padding:10px 0 22px 0;
+}
+
+
+.contact h2 {
+padding-bottom:0;
+}
+
+.win .contact h2 {
+padding-bottom:8px;
+}
+
+
+.contact p {
+margin:0;
+}
+
+.contact a:hover {
+color: #e11032;
+}
+
+.subtext {
+font-family: 'Fontin',"Palatino Linotype","Book Antiqua",Palatino,FreeSerif, serif;
+font-size:24px;
+line-height:24px;
+display:block;
+}
+
+.win .subtext, .chrome .subtext {
+padding-top:6px;
+}
+
+
+footer {
+display:block;
+margin-top:-5px;
+background:url('http://src.azgor.com/image/9004/') repeat-x top right;
+}
+
+footer p {
+display:none;
+}
+
+footer small {
+font-size:12px;
+line-height:14px;
+padding-top:21px;
+display:block;
+float:center;
+width:100%;
+}
+
+nav.footer_nav {
+height:auto;
+}
+
+nav.footer_nav p {
+display:block;
+padding:16px 16px 8px 16px;
+}
+
+.win nav.footer_nav p, .chrome nav.footer_nav p {
+padding:14px 16px 10px 16px;
+}
+
+
+.fr {
+float:right;
+}
+
+.fl {
+float:left;
+}
+
+iframe {
+max-height:100%;
+width:100%;
+border:0px solid #444242;
+float:left;
+margin-left:4%;
+}
+
+
+.newstype
+{
+background-color:#d0e4fe; url('https://bangla-news-paper.appspot.com/img/bg-nav.png');
+text-align:center;
+}
+
+/* float clearing for everyone else */
+.clearfix:after{
+  clear: both;
+  content: ".";
+  display: block;
+  height: 0;
+  visibility: hidden;
+  font-size: 0;
+}
