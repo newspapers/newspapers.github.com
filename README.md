@@ -1,7 +1,5 @@
-newspaper.github.com
-====================
-
 Newspapers List Collection
+====================
 
 Got To <a target="_blank" rel="dofollow" href="http://www.bangla-news-paper.com">Bangla Newspaper</a> To Read All Bangla daily, weelkly or monthly newspapers.
 
