@@ -1,0 +1,11 @@
+User-agent: *
+Disallow: /fonts
+Disallow: /images
+Disallow: /javascripts
+Disallow: /stylesheets
+
+User-agent: MJ12bot
+Disallow: /
+
+User-agent: Mozilla/5.0 (compatible; Ezooms/1.0; ezooms.bot@gmail.com)
+Disallow: /
