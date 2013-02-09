@@ -10,3 +10,10 @@ h1, h2, h3, h4, h5, h6 {
 font-family:'ChunkFive', "Georgia", serif;
 }
 
+.container {
+margin:0 auto;
+max-width:940px;
+overflow:hidden;
+width:100%;
+}
+
